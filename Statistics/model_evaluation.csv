@@ -1,0 +1,15 @@
+model_name,r2_train,r2_val
+RF_inferential,0.766857952743,0.713444131162
+GBM_inferential,0.906144380053,0.787650910741
+LR_inferential,0.803425970481,0.72111242277
+RF_predictive,0.810825681861,0.722861544516
+GBM_predictive,0.882745642448,0.734654036269
+LR_predictive,0.785823444329,0.744449511697
+"ensemble(RF_inferential,GBM_inferential)",0.860482038399,0.764944623683
+"ensemble(RF_inferential,LR_inferential)",0.814419144902,0.749565824385
+"ensemble(GBM_inferential,LR_inferential)",0.876232984779,0.773923743119
+"ensemble(RF_inferential,GBM_inferential,LR_inferential)",0.858337206239,0.769552221502
+"ensemble(RF_predictive,GBM_predictive)",0.853570354273,0.73192429167
+"ensemble(RF_predictive,LR_predictive)",0.820615833401,0.753815073043
+"ensemble(GBM_predictive,LR_predictive)",0.85827705815,0.75689415307
+"ensemble(RF_predictive,GBM_predictive,LR_predictive)",0.849714392777,0.751675995408
